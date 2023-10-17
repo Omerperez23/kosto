@@ -80,10 +80,10 @@ const main = async () => {
 
     // runMethods();
 
-    // createRawSheetsFile('1/1/2022', 'daily');
+    createRawSheetsFile('1/1/2000', 'daily');
 
-    let json = csvToJson.getJsonFromCsv("./parsed_data.csv");
-    console.log(json);
+    // let json = csvToJson.getJsonFromCsv("./parsed_data.csv");
+    // console.log(json);
 }
 
 main();
